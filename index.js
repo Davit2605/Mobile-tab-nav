@@ -6,7 +6,7 @@ tabs.forEach((tab, idx) => {
     removeActiveTab();
     removeShowImg();
 
-    tab.classList.add("active");
+    ta.classList.add("active");
     images[idx].classList.add("show");
   });
 });
